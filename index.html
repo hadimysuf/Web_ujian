@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Ujian Online</title>
+    <link rel="stylesheet" href="style.css"> <!-- Menghubungkan file CSS -->
+</head>
+<body>
+    <!-- Container Utama -->
+    <div class="container">
+        <h1>Aplikasi Ujian Online</h1>
+        <h2>Buat Soal</h2>
+
+        <!-- Form Input Soal -->
+        <div class="form-group">
+            <label for="question">Masukkan Pertanyaan</label>
+            <input type="text" id="question" placeholder="Masukkan pertanyaan Anda">
+        </div>
+        <div class="form-group">
+            <label for="optionA">Opsi A</label>
+            <input type="text" id="optionA" placeholder="Opsi A">
+        </div>
+        <div class="form-group">
+            <label for="optionB">Opsi B</label>
+            <input type="text" id="optionB" placeholder="Opsi B">
+        </div>
+        <div class="form-group">
+            <label for="optionC">Opsi C</label>
+            <input type="text" id="optionC" placeholder="Opsi C">
+        </div>
+        <div class="form-group">
+            <label for="optionD">Opsi D</label>
+            <input type="text" id="optionD" placeholder="Opsi D">
+        </div>
+        <div class="form-group">
+            <label for="correctAnswer">Jawaban Benar</label>
+            <select id="correctAnswer">
+                <option value="a">Opsi A</option>
+                <option value="b">Opsi B</option>
+                <option value="c">Opsi C</option>
+                <option value="d">Opsi D</option>
+            </select>
+        </div>
+
+        <!-- Tombol -->
+        <div class="button-group">
+            <button id="add-question">Tambah Soal</button>
+            <button id="start-quiz">Mulai Ujian</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Menghubungkan file JavaScript -->
+</body>
+</html>
